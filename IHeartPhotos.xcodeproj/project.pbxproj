@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C647DFEC13B80EB50077E7C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C647DFEB13B80EB50077E7C9 /* UIKit.framework */; };
+		C647DFEE13B80EB50077E7C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C647DFED13B80EB50077E7C9 /* Foundation.framework */; };
+		C647DFF013B80EB50077E7C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C647DFEF13B80EB50077E7C9 /* CoreGraphics.framework */; };
+		C647DFF613B80EB50077E7C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C647DFF413B80EB50077E7C9 /* InfoPlist.strings */; };
+		C647DFF913B80EB50077E7C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C647DFF813B80EB50077E7C9 /* main.m */; };
+		C647DFFC13B80EB50077E7C9 /* IHeartPhotosAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C647DFFB13B80EB50077E7C9 /* IHeartPhotosAppDelegate.m */; };
+		C647DFFF13B80EB50077E7C9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C647DFFD13B80EB50077E7C9 /* MainWindow.xib */; };
+		C647E00213B80EB50077E7C9 /* IHeartPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C647E00113B80EB50077E7C9 /* IHeartPhotosViewController.m */; };
+		C647E00513B80EB50077E7C9 /* IHeartPhotosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C647E00313B80EB50077E7C9 /* IHeartPhotosViewController.xib */; };
+		C647E00C13B80EB50077E7C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C647DFEB13B80EB50077E7C9 /* UIKit.framework */; };
+		C647E00D13B80EB50077E7C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C647DFED13B80EB50077E7C9 /* Foundation.framework */; };
+		C647E00E13B80EB50077E7C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C647DFEF13B80EB50077E7C9 /* CoreGraphics.framework */; };
+		C647E01613B80EB50077E7C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C647E01413B80EB50077E7C9 /* InfoPlist.strings */; };
+		C647E01913B80EB50077E7C9 /* IHeartPhotosTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C647E01813B80EB50077E7C9 /* IHeartPhotosTests.h */; };
+		C647E01B13B80EB50077E7C9 /* IHeartPhotosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C647E01A13B80EB50077E7C9 /* IHeartPhotosTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C647E00F13B80EB50077E7C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C647DFDE13B80EB50077E7C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C647DFE613B80EB50077E7C9;
+			remoteInfo = IHeartPhotos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C647DFE713B80EB50077E7C9 /* IHeartPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IHeartPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C647DFEB13B80EB50077E7C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C647DFED13B80EB50077E7C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C647DFEF13B80EB50077E7C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C647DFF313B80EB50077E7C9 /* IHeartPhotos-Info.plist */ = {isa = PBXFileReference; path = "IHeartPhotos-Info.plist"; sourceTree = "<group>"; };
+		C647DFF513B80EB50077E7C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C647DFF713B80EB50077E7C9 /* IHeartPhotos-Prefix.pch */ = {isa = PBXFileReference; path = "IHeartPhotos-Prefix.pch"; sourceTree = "<group>"; };
+		C647DFF813B80EB50077E7C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C647DFFA13B80EB50077E7C9 /* IHeartPhotosAppDelegate.h */ = {isa = PBXFileReference; path = IHeartPhotosAppDelegate.h; sourceTree = "<group>"; };
+		C647DFFB13B80EB50077E7C9 /* IHeartPhotosAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IHeartPhotosAppDelegate.m; sourceTree = "<group>"; };
+		C647DFFE13B80EB50077E7C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C647E00013B80EB50077E7C9 /* IHeartPhotosViewController.h */ = {isa = PBXFileReference; path = IHeartPhotosViewController.h; sourceTree = "<group>"; };
+		C647E00113B80EB50077E7C9 /* IHeartPhotosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IHeartPhotosViewController.m; sourceTree = "<group>"; };
+		C647E00413B80EB50077E7C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IHeartPhotosViewController.xib; sourceTree = "<group>"; };
+		C647E00B13B80EB50077E7C9 /* IHeartPhotosTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IHeartPhotosTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C647E01313B80EB50077E7C9 /* IHeartPhotosTests-Info.plist */ = {isa = PBXFileReference; path = "IHeartPhotosTests-Info.plist"; sourceTree = "<group>"; };
+		C647E01513B80EB50077E7C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C647E01713B80EB50077E7C9 /* IHeartPhotosTests-Prefix.pch */ = {isa = PBXFileReference; path = "IHeartPhotosTests-Prefix.pch"; sourceTree = "<group>"; };
+		C647E01813B80EB50077E7C9 /* IHeartPhotosTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IHeartPhotosTests.h; sourceTree = "<group>"; };
+		C647E01A13B80EB50077E7C9 /* IHeartPhotosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IHeartPhotosTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C647DFE413B80EB50077E7C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C647DFEC13B80EB50077E7C9 /* UIKit.framework in Frameworks */,
+				C647DFEE13B80EB50077E7C9 /* Foundation.framework in Frameworks */,
+				C647DFF013B80EB50077E7C9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C647E00713B80EB50077E7C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C647E00C13B80EB50077E7C9 /* UIKit.framework in Frameworks */,
+				C647E00D13B80EB50077E7C9 /* Foundation.framework in Frameworks */,
+				C647E00E13B80EB50077E7C9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C647DFDC13B80EB50077E7C9 = {
+			isa = PBXGroup;
+			children = (
+				C647DFF113B80EB50077E7C9 /* IHeartPhotos */,
+				C647E01113B80EB50077E7C9 /* IHeartPhotosTests */,
+				C647DFEA13B80EB50077E7C9 /* Frameworks */,
+				C647DFE813B80EB50077E7C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C647DFE813B80EB50077E7C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C647DFE713B80EB50077E7C9 /* IHeartPhotos.app */,
+				C647E00B13B80EB50077E7C9 /* IHeartPhotosTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C647DFEA13B80EB50077E7C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C647DFEB13B80EB50077E7C9 /* UIKit.framework */,
+				C647DFED13B80EB50077E7C9 /* Foundation.framework */,
+				C647DFEF13B80EB50077E7C9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C647DFF113B80EB50077E7C9 /* IHeartPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				C647DFFA13B80EB50077E7C9 /* IHeartPhotosAppDelegate.h */,
+				C647DFFB13B80EB50077E7C9 /* IHeartPhotosAppDelegate.m */,
+				C647DFFD13B80EB50077E7C9 /* MainWindow.xib */,
+				C647E00013B80EB50077E7C9 /* IHeartPhotosViewController.h */,
+				C647E00113B80EB50077E7C9 /* IHeartPhotosViewController.m */,
+				C647E00313B80EB50077E7C9 /* IHeartPhotosViewController.xib */,
+				C647DFF213B80EB50077E7C9 /* Supporting Files */,
+			);
+			path = IHeartPhotos;
+			sourceTree = "<group>";
+		};
+		C647DFF213B80EB50077E7C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C647DFF313B80EB50077E7C9 /* IHeartPhotos-Info.plist */,
+				C647DFF413B80EB50077E7C9 /* InfoPlist.strings */,
+				C647DFF713B80EB50077E7C9 /* IHeartPhotos-Prefix.pch */,
+				C647DFF813B80EB50077E7C9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C647E01113B80EB50077E7C9 /* IHeartPhotosTests */ = {
+			isa = PBXGroup;
+			children = (
+				C647E01813B80EB50077E7C9 /* IHeartPhotosTests.h */,
+				C647E01A13B80EB50077E7C9 /* IHeartPhotosTests.m */,
+				C647E01213B80EB50077E7C9 /* Supporting Files */,
+			);
+			path = IHeartPhotosTests;
+			sourceTree = "<group>";
+		};
+		C647E01213B80EB50077E7C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C647E01313B80EB50077E7C9 /* IHeartPhotosTests-Info.plist */,
+				C647E01413B80EB50077E7C9 /* InfoPlist.strings */,
+				C647E01713B80EB50077E7C9 /* IHeartPhotosTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C647DFE613B80EB50077E7C9 /* IHeartPhotos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C647E01E13B80EB50077E7C9 /* Build configuration list for PBXNativeTarget "IHeartPhotos" */;
+			buildPhases = (
+				C647DFE313B80EB50077E7C9 /* Sources */,
+				C647DFE413B80EB50077E7C9 /* Frameworks */,
+				C647DFE513B80EB50077E7C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IHeartPhotos;
+			productName = IHeartPhotos;
+			productReference = C647DFE713B80EB50077E7C9 /* IHeartPhotos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C647E00A13B80EB50077E7C9 /* IHeartPhotosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C647E02113B80EB50077E7C9 /* Build configuration list for PBXNativeTarget "IHeartPhotosTests" */;
+			buildPhases = (
+				C647E00613B80EB50077E7C9 /* Sources */,
+				C647E00713B80EB50077E7C9 /* Frameworks */,
+				C647E00813B80EB50077E7C9 /* Resources */,
+				C647E00913B80EB50077E7C9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C647E01013B80EB50077E7C9 /* PBXTargetDependency */,
+			);
+			name = IHeartPhotosTests;
+			productName = IHeartPhotosTests;
+			productReference = C647E00B13B80EB50077E7C9 /* IHeartPhotosTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C647DFDE13B80EB50077E7C9 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C647DFE113B80EB50077E7C9 /* Build configuration list for PBXProject "IHeartPhotos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C647DFDC13B80EB50077E7C9;
+			productRefGroup = C647DFE813B80EB50077E7C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C647DFE613B80EB50077E7C9 /* IHeartPhotos */,
+				C647E00A13B80EB50077E7C9 /* IHeartPhotosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C647DFE513B80EB50077E7C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C647DFF613B80EB50077E7C9 /* InfoPlist.strings in Resources */,
+				C647DFFF13B80EB50077E7C9 /* MainWindow.xib in Resources */,
+				C647E00513B80EB50077E7C9 /* IHeartPhotosViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C647E00813B80EB50077E7C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C647E01613B80EB50077E7C9 /* InfoPlist.strings in Resources */,
+				C647E01913B80EB50077E7C9 /* IHeartPhotosTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C647E00913B80EB50077E7C9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C647DFE313B80EB50077E7C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C647DFF913B80EB50077E7C9 /* main.m in Sources */,
+				C647DFFC13B80EB50077E7C9 /* IHeartPhotosAppDelegate.m in Sources */,
+				C647E00213B80EB50077E7C9 /* IHeartPhotosViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C647E00613B80EB50077E7C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C647E01B13B80EB50077E7C9 /* IHeartPhotosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C647E01013B80EB50077E7C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C647DFE613B80EB50077E7C9 /* IHeartPhotos */;
+			targetProxy = C647E00F13B80EB50077E7C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C647DFF413B80EB50077E7C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C647DFF513B80EB50077E7C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C647DFFD13B80EB50077E7C9 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C647DFFE13B80EB50077E7C9 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		C647E00313B80EB50077E7C9 /* IHeartPhotosViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C647E00413B80EB50077E7C9 /* en */,
+			);
+			name = IHeartPhotosViewController.xib;
+			sourceTree = "<group>";
+		};
+		C647E01413B80EB50077E7C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C647E01513B80EB50077E7C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C647E01C13B80EB50077E7C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C647E01D13B80EB50077E7C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		C647E01F13B80EB50077E7C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IHeartPhotos/IHeartPhotos-Prefix.pch";
+				INFOPLIST_FILE = "IHeartPhotos/IHeartPhotos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C647E02013B80EB50077E7C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IHeartPhotos/IHeartPhotos-Prefix.pch";
+				INFOPLIST_FILE = "IHeartPhotos/IHeartPhotos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C647E02213B80EB50077E7C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IHeartPhotos.app/IHeartPhotos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IHeartPhotosTests/IHeartPhotosTests-Prefix.pch";
+				INFOPLIST_FILE = "IHeartPhotosTests/IHeartPhotosTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C647E02313B80EB50077E7C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IHeartPhotos.app/IHeartPhotos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IHeartPhotosTests/IHeartPhotosTests-Prefix.pch";
+				INFOPLIST_FILE = "IHeartPhotosTests/IHeartPhotosTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C647DFE113B80EB50077E7C9 /* Build configuration list for PBXProject "IHeartPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C647E01C13B80EB50077E7C9 /* Debug */,
+				C647E01D13B80EB50077E7C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C647E01E13B80EB50077E7C9 /* Build configuration list for PBXNativeTarget "IHeartPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C647E01F13B80EB50077E7C9 /* Debug */,
+				C647E02013B80EB50077E7C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C647E02113B80EB50077E7C9 /* Build configuration list for PBXNativeTarget "IHeartPhotosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C647E02213B80EB50077E7C9 /* Debug */,
+				C647E02313B80EB50077E7C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C647DFDE13B80EB50077E7C9 /* Project object */;
+}
